@@ -1,0 +1,253 @@
+
+---
+books:
+  columns:
+  - id
+  - title
+  - description
+  - author
+  - created_at
+  - updated_at
+  - user_id
+  - category_id
+  - book_img_file_name
+  - book_img_content_type
+  - book_img_file_size
+  - book_img_updated_at
+  records: 
+  - - '1'
+    - 'Sway: The Irresistible Pull of Irrational Behavior'
+    - Rom and Ori Brafman take us on a tour of how irrational behaviour can set in
+      and cause us to make sometimes catastrophic errors.  The one major takeaway?  Don't
+      become Jacob Van Zanten.  How's that for a teaser?
+    - Ori Brafman
+    - '2016-03-23 09:13:52.307428'
+    - '2016-03-23 09:19:24.883355'
+    - '1'
+    - '2'
+    - sway.jpg
+    - image/jpeg
+    - '63277'
+    - '2016-03-23 09:13:51.993111'
+  - - '2'
+    - Vernon God Little
+    - 'In this 2004 Booker Prize Winner (a debut novel no less), the adolescent misfit
+      Vernon tries to escape the clutches of his hometown and find a way forward for
+      him and his mother.  Hilarity ensues as Vernon philosophizes and bounces from
+      shenanigan to shenanigan.  Highlight: Emmanuel Kant is rediscovered as Immaculate
+      C**t.'
+    - DBC Pierre
+    - '2016-03-23 09:22:11.096555'
+    - '2016-03-23 09:22:11.096555'
+    - '1'
+    - '1'
+    - vernon_god_little.jpg
+    - image/jpeg
+    - '33441'
+    - '2016-03-23 09:22:10.815999'
+  - - '5'
+    - Freakonomics
+    - 'Why can''t all Economics books be written this way? '
+    - Steven Levitt and Stephen Dubner
+    - '2016-03-23 09:24:11.682192'
+    - '2016-03-23 09:24:50.292934'
+    - '1'
+    - '2'
+    - freakonomics.jpg
+    - image/jpeg
+    - '44255'
+    - '2016-03-23 09:24:11.394479'
+  - - '6'
+    - Angela's Ashes
+    - Frank McCourt recounts his childhood across America and Ireland, with the young
+      Frank coming of age as his family overcomes a string of tragedies.
+    - Frank McCourt
+    - '2016-03-23 09:28:07.469273'
+    - '2016-03-23 09:33:43.804025'
+    - '1'
+    - '3'
+    - angelas_ashes.jpg
+    - image/jpeg
+    - '48094'
+    - '2016-03-23 09:28:07.160469'
+  - - '7'
+    - The Signal and The Noise
+    - Nate Silver shares the powerful insights of practical statistical reasoning
+      that helped him accurately predict the results of the 2012 Presidential and
+      Congressional races.  Something for everyone, from earthquake prediction to
+      gambling.
+    - Nate Silver
+    - '2016-03-23 09:29:56.150541'
+    - '2016-03-23 09:29:56.150541'
+    - '2'
+    - '2'
+    - the_signal_and_the_noise.jpg
+    - image/jpeg
+    - '47653'
+    - '2016-03-23 09:29:55.875734'
+  - - '8'
+    - The English Patient
+    - In a hospital bed, the mysterious English Patient recounts a life of adventure,
+      subterfuge and betrayal.
+    - Michael Ondaatje
+    - '2016-03-23 09:30:44.457625'
+    - '2016-03-23 09:30:44.457625'
+    - '2'
+    - '1'
+    - the_english_patient.jpg
+    - image/jpeg
+    - '30292'
+    - '2016-03-23 09:30:44.162157'
+  - - '10'
+    - Eat Pray Love
+    - Errmerrgrrd.
+    - Elizabeth Gilbert
+    - '2016-03-23 09:31:16.571837'
+    - '2016-03-23 09:31:16.571837'
+    - '2'
+    - '3'
+    - eat_pray_love.jpg
+    - image/jpeg
+    - '30866'
+    - '2016-03-23 09:31:16.367296'
+  - - '11'
+    - The Great Gatsby
+    - F. Scott Fitzgerald's classic tome, recently remade as a movie, details the
+      exploits of the mysterious Jay Gatsby through the eyes of the protagonist Nick
+      Carraway.  They were indeed careless people, Tom and Daisy...
+    - F. Scott Fitzgerald
+    - '2016-03-23 09:32:31.291251'
+    - '2016-03-23 09:32:31.291251'
+    - '2'
+    - '1'
+    - great_gatsby.jpg
+    - image/jpeg
+    - '37383'
+    - '2016-03-23 09:32:31.039811'
+
+---
+categories:
+  columns:
+  - id
+  - name
+  - created_at
+  - updated_at
+  records: 
+  - - '1'
+    - Literature
+    - '2016-03-23 09:15:42.937897'
+    - '2016-03-23 09:15:42.937897'
+  - - '2'
+    - Business
+    - '2016-03-23 09:15:51.385231'
+    - '2016-03-23 09:15:51.385231'
+  - - '3'
+    - Biography
+    - '2016-03-23 09:15:58.059204'
+    - '2016-03-23 09:15:58.059204'
+
+---
+reviews:
+  columns:
+  - id
+  - rating
+  - comment
+  - created_at
+  - updated_at
+  - user_id
+  - book_id
+  records: 
+  - - '1'
+    - '5'
+    - This is the best thing since sliced bread! :)
+    - '2016-03-23 09:17:44.475332'
+    - '2016-03-23 09:17:44.475332'
+    - '1'
+    - '1'
+  - - '2'
+    - '3'
+    - Can't really tell how this is all that different from The Tipping Point.
+    - '2016-03-23 09:18:09.585236'
+    - '2016-03-23 09:18:09.585236'
+    - '1'
+    - '1'
+  - - '3'
+    - '5'
+    - Really useful for my organizational behaviour psychology class!
+    - '2016-03-23 09:18:27.411379'
+    - '2016-03-23 09:18:27.411379'
+    - '1'
+    - '1'
+  - - '4'
+    - '5'
+    - A classic tale of the American dream gone wrong.
+    - '2016-03-23 09:35:54.705169'
+    - '2016-03-23 09:35:54.705169'
+    - '1'
+    - '11'
+  - - '5'
+    - '3'
+    - Had to read this for my high school English class.  Never quite got why people
+      liked it so much.
+    - '2016-03-23 09:36:16.308635'
+    - '2016-03-23 09:36:16.308635'
+    - '1'
+    - '11'
+  - - '6'
+    - '5'
+    - Wow.  Changed my life.  Took the words right out of my mouth.
+    - '2016-03-23 09:36:40.012456'
+    - '2016-03-23 09:36:40.012456'
+    - '1'
+    - '10'
+  - - '7'
+    - '1'
+    - Had to read this for my book club.  Zzz...
+    - '2016-03-23 09:36:53.514066'
+    - '2016-03-23 09:36:53.514066'
+    - '1'
+    - '10'
+
+---
+users:
+  columns:
+  - id
+  - email
+  - encrypted_password
+  - reset_password_token
+  - reset_password_sent_at
+  - remember_created_at
+  - sign_in_count
+  - current_sign_in_at
+  - last_sign_in_at
+  - current_sign_in_ip
+  - last_sign_in_ip
+  - created_at
+  - updated_at
+  records: 
+  - - '1'
+    - mike@mike.com
+    - "$2a$10$zPa2KQx2oGGrL93Q6R7EF.WJHoEWWtupKJrfB1nhZVv9KCqXTo9UK"
+    - 
+    - 
+    - 
+    - '3'
+    - '2016-03-23 09:35:40.756794'
+    - '2016-03-23 09:33:05.511572'
+    - "::1"
+    - "::1"
+    - '2016-03-23 09:10:53.614237'
+    - '2016-03-23 09:35:40.758344'
+  - - '2'
+    - jeff@jeff.com
+    - "$2a$10$bYehRL0UHsF6uE3jBF72DOij/pIicCKEMUDYNBWczpg8wfOWfsnZe"
+    - 
+    - 
+    - 
+    - '1'
+    - '2016-03-23 09:28:30.344101'
+    - '2016-03-23 09:28:30.344101'
+    - "::1"
+    - "::1"
+    - '2016-03-23 09:28:30.339409'
+    - '2016-03-23 09:28:30.345445'
