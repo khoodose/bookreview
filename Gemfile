@@ -4,11 +4,11 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
+
+# gem 'rack','1.0.1'
 # gem 'sqlite3'
-
 gem 'pg'
-
-
+# gem 'taps'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -20,9 +20,16 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 
 gem 'devise', '~> 3.5', '>= 3.5.6'
 
-# paperclip and heroku and aws stuff
-gem 'paperclip', '~> 4.3', '>= 4.3.6'
+# paperclip
+gem 'paperclip', '~> 4.3'
+gem "fog"
+gem "figaro"
 
+# HEROKU
+gem 'rails_12factor', group: :production
+gem 'puma'
+
+# ruby "2.2.0"
 
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
